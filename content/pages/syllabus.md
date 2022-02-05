@@ -26,11 +26,48 @@ Grading
 
 The final grade will be calculated based on the following weights:
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Research Project | 50% |
-| Homework | 25% |
-| Scribe Notes | 25% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Research Project
+{{< tdclose >}}
+{{< tdopen >}}
+50%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Scribe Notes
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Homework
 --------
@@ -50,27 +87,385 @@ We encourage working together whenever possible: in the tutorials, on the probl
 {{< anchor "Calendar" >}}{{< /anchor >}}Calendar
 ------------------------------------------------
 
-| LEC # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| 1 | Introduction  {{< br >}}  {{< br >}}Review of Convexity and Linear Programming | &nbsp; |
-| 2 | PSD Matrices  {{< br >}}  {{< br >}}Semidefinite Programming | &nbsp; |
-| 3 | Binary Optimization  {{< br >}}  {{< br >}}Bounds: Goemans-Williamson and Nesterov  {{< br >}}  {{< br >}}Linearly Constrained Problems | &nbsp; |
-| 4 | Review: Groups, Rings, Fields  {{< br >}}  {{< br >}}Polynomials and Ideals | &nbsp; |
-| 5 | Univariate Polynomials  {{< br >}}  {{< br >}}Root Bounds and Sturm Sequences  {{< br >}}  {{< br >}}Counting Real Roots  {{< br >}}  {{< br >}}Nonnegativity  {{< br >}}  {{< br >}}Sum of Squares  {{< br >}}  {{< br >}}Positive Semidefinite Matrices | Homework 1 out |
-| 6 | Resultants  {{< br >}}  {{< br >}}Discriminants  {{< br >}}  {{< br >}}Applications  {{< br >}}  {{< br >}}The set of Nonnegative Polynomials | &nbsp; |
-| 7 | Hyperbolic Polynomials  {{< br >}}  {{< br >}}SDP Representability | Homework 1 due |
-| 8 | SDP Representability  {{< br >}}  {{< br >}}Convex Sets in R2  {{< br >}}  {{< br >}}Hyperbolicity and the Lax Conjecture  {{< br >}}  {{< br >}}Relating SDP-representable Sets and Hyperbolic Polynomials  {{< br >}}  {{< br >}}Characterization | &nbsp; |
-| 9 | Binomial Equations  {{< br >}}  {{< br >}}Newton Polytopes  {{< br >}}  {{< br >}}The Bézout and BKK Bounds  {{< br >}}  {{< br >}}Application: Nash Equilibria | &nbsp; |
-| 10 | Nonegativity and Sums of Squares  {{< br >}}  {{< br >}}Sums of Squares and Semidefinite Programming  {{< br >}}  {{< br >}}Applications and Extensions  {{< br >}}  {{< br >}}Multivariate Polynomials  {{< br >}}  {{< br >}}Duality and Density | &nbsp; |
-| 11 | SOS Applications  {{< br >}}  {{< br >}}Moments  {{< br >}}  {{< br >}}Bridging the Gap | &nbsp; |
-| 12 | Recovering a Measure from its Moments  {{< br >}}  {{< br >}}A Probabilistic Interpretation  {{< br >}}  {{< br >}}Duality and Complementary Slackness  {{< br >}}  {{< br >}}Multivariate Case  {{< br >}}  {{< br >}}Density Results | &nbsp; |
-| 13 | Polynomial Ideals  {{< br >}}  {{< br >}}Algebraic Varieties  {{< br >}}  {{< br >}}Quotient Rings  {{< br >}}  {{< br >}}Monomial Orderings | Homework 2 out |
-| 14 | Monomial Orderings  {{< br >}}  {{< br >}}Gröbner Bases  {{< br >}}  {{< br >}}Applications and Examples  {{< br >}}  {{< br >}}Zero-dimensional Ideals | Homework 2 due |
-| 15 | Zero-dimensional Ideals  {{< br >}}  {{< br >}}Hilbert Series | &nbsp; |
-| 16 | Generalizing the Hermite Matrix  {{< br >}}  {{< br >}}Parametric Versions  {{< br >}}  {{< br >}}SOS on Quotients | &nbsp; |
-| 17 | Infeasibility of Real Polynomial Equations  {{< br >}}  {{< br >}}Certificates  {{< br >}}  {{< br >}}The Zero-dimensional Case  {{< br >}}  {{< br >}}Optimization | &nbsp; |
-| 18 | Quantifier Elimination  {{< br >}}  {{< br >}}Tarski-Seidenberg  {{< br >}}  {{< br >}}Cylindrical Algebraic Decomposition (CAD) | &nbsp; |
-| 19 | Certificates  {{< br >}}  {{< br >}}Psatz Revisited  {{< br >}}  {{< br >}}Copositive Matrices and Pólya's Theorem  {{< br >}}  {{< br >}}Positive Polynomials | &nbsp; |
-| 20 | Positive Polynomials  {{< br >}}  {{< br >}}Schmüdgen's Theorem | &nbsp; |
-| 21 | Groups and their Representations  {{< br >}}  {{< br >}}Algebra Decomposition | Homework 3 out |
-| 22 | Sums of Squares Programs and Polynomial Inequalities | Homework 3 due three days after Lec #22
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction  
+  
+Review of Convexity and Linear Programming
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+PSD Matrices  
+  
+Semidefinite Programming
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Binary Optimization  
+  
+Bounds: Goemans-Williamson and Nesterov  
+  
+Linearly Constrained Problems
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Review: Groups, Rings, Fields  
+  
+Polynomials and Ideals
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Univariate Polynomials  
+  
+Root Bounds and Sturm Sequences  
+  
+Counting Real Roots  
+  
+Nonnegativity  
+  
+Sum of Squares  
+  
+Positive Semidefinite Matrices
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Resultants  
+  
+Discriminants  
+  
+Applications  
+  
+The set of Nonnegative Polynomials
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Hyperbolic Polynomials  
+  
+SDP Representability
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+SDP Representability  
+  
+Convex Sets in R2  
+  
+Hyperbolicity and the Lax Conjecture  
+  
+Relating SDP-representable Sets and Hyperbolic Polynomials  
+  
+Characterization
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Binomial Equations  
+  
+Newton Polytopes  
+  
+The Bézout and BKK Bounds  
+  
+Application: Nash Equilibria
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Nonegativity and Sums of Squares  
+  
+Sums of Squares and Semidefinite Programming  
+  
+Applications and Extensions  
+  
+Multivariate Polynomials  
+  
+Duality and Density
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+SOS Applications  
+  
+Moments  
+  
+Bridging the Gap
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Recovering a Measure from its Moments  
+  
+A Probabilistic Interpretation  
+  
+Duality and Complementary Slackness  
+  
+Multivariate Case  
+  
+Density Results
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Polynomial Ideals  
+  
+Algebraic Varieties  
+  
+Quotient Rings  
+  
+Monomial Orderings
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 2 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Monomial Orderings  
+  
+Gröbner Bases  
+  
+Applications and Examples  
+  
+Zero-dimensional Ideals
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Zero-dimensional Ideals  
+  
+Hilbert Series
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Generalizing the Hermite Matrix  
+  
+Parametric Versions  
+  
+SOS on Quotients
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Infeasibility of Real Polynomial Equations  
+  
+Certificates  
+  
+The Zero-dimensional Case  
+  
+Optimization
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Quantifier Elimination  
+  
+Tarski-Seidenberg  
+  
+Cylindrical Algebraic Decomposition (CAD)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Certificates  
+  
+Psatz Revisited  
+  
+Copositive Matrices and Pólya's Theorem  
+  
+Positive Polynomials
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Positive Polynomials  
+  
+Schmüdgen's Theorem
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Groups and their Representations  
+  
+Algebra Decomposition
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 3 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Sums of Squares Programs and Polynomial Inequalities
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 3 due three days after Lec #22
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
