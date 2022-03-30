@@ -5,6 +5,7 @@ description: This course contains notes on SDP Representability, Convex Sets in 
   Polynomials, and Characterization.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-972-algebraic-techniques-and-semidefinite-optimization-spring-2006/73e834f878db7055a49c59a3cb227dce_lecture_08.pdf
 file_type: application/pdf
+parent_uid: f88c71c5-5321-378f-be82-d3863039cff0
 resourcetype: Document
 title: lecture_08.pdf
 uid: 73e834f8-78db-7055-a49c-59a3cb227dce
